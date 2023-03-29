@@ -1,3 +1,7 @@
 #!/bin/bash
-yum install -y httpd
+apt-get update
 
+# Install packages
+apt-get install -y zip nginx libgdiplus pv
+
+export OPENSSL_CONF=/etc/ssl/
