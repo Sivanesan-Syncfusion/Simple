@@ -1,2 +1,2 @@
 #!/bin/bash
-bash testing
+bash /var/www/boldbi/testing
